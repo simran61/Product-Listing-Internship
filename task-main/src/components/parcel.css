@@ -1,0 +1,18 @@
+.dataTable{
+    width: 90vw !important;
+    margin: 0 auto;  
+}
+
+.tHeading{
+    color: rgb(14, 98, 155) !important;
+    font-weight: 900 !important;
+    font-size: 1.2rem !important;
+}
+
+.small{
+    font-size: 0.9rem !important;
+}
+
+.arrow{
+    color: rgb(14, 98, 155) !important;
+}

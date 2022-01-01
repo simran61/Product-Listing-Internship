@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.signOutBtn{
+    background-color: rgb(14, 98, 155);
+    color: white;
+    padding: 0.6rem 1.3rem;
+    position: absolute;
+    right: 0%;
+    margin: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    /* align-items: right; */
+    
+}
+
+h1{
+    display: inline-block;
+    margin: 1.3rem 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: black;
+}

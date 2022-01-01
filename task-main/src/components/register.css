@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.registerPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #12698f, #286a91, #3d78a5, #5287b9, #6895cd, #69a3dc, #69b1ea, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+    /* background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;  */
+
+/* background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;  */
+
+    
+
+    /* background-image: linear-gradient(to right top, #020f2a, #0b2042, #17305b, #244176, #315392, #2d67aa, #227cc3, #0092da, #00aeeb, #00caf4, #00e4f5, #2efdf0); */
+
+
+} 
+
+.registerForm{
+    height: auto;
+    width: 30rem;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 0.8rem 3.2rem 0 rgba(9, 12, 58, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 0.4rem );
+    border-radius: 1rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+    text-align: center;
+    /* margin: 90px 33% 90px 33%; */
+    padding: 2.5rem;
+}
+
+.registerForm h3{
+    font-size: 2.3rem;
+    /* font-family: 'Licorice', cursive; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+
+.registerForm input{
+    width: 60%;
+    display: block;
+    margin: 1.6rem auto;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0.09rem solid rgb(78, 78, 78);
+    padding: 0.3rem 0.8rem;
+}
+
+.registerForm button{
+    /* background-color: rgb(10, 68, 107); */
+    background-color: rgb(14, 98, 155);
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.8rem;
+    margin-bottom: 1.4rem;
+}
+
+img{
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(10, 68, 107);
+    /* color: white; */
+    font-weight: 700;
+}

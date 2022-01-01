@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.parcelForm{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.parcelInfoForm{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    display: block;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0.1rem solid rgb(7, 66, 105);
+    padding: 0.3rem 0.8rem;
+    margin-left: 1rem;
+}
+
+.parcelForm button{
+    background-color: rgb(14, 98, 155);
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.labelInput{
+    display: flex;
+    margin: 0.5rem;
+    font-weight: bold;
+    /* line-height: 1.3rem; */
+}
+
+.mr-top{
+    margin-top: 0;
+}
+
+.para{
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
+button{
+    width: 7rem;
+    background-color: rgb(14, 98, 155);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 150px;
+    /* margin: 0.3rem 0; */
+}
+
+.modalHeading{
+    /* font-family: 'Licorice', cursive; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 2.7rem;
+    color: rgb(14, 98, 155);
+    margin: 0 auto 1rem 0;
+}
+
+.modalBox{
+    width: 60vw !important;
+    background-color: #bdd2e0 !important;
+    border-radius: 1rem !important;
+    /* outline: none !important; */
+    border: none !important;
+}
+
+.ModalOpenerAdd{
+    width: 10rem;
+}
+.ModalOpenerAdd:hover{
+    background-color: rgb(29, 119, 179) !important;
+}
+.modalCloser{
+    border: none;
+    width: 3rem;
+    background: none;
+    color: black;
+}
+
+.closeHead{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.closeHead p{
+    font-size: 1.7rem;
+}
+.closeHead button{
+    margin-top: -0.8rem !important;
+}
+.closeHead button:hover{
+    border-radius: 50%;
+    background-color: rgb(61, 137, 187) !important;
+    color: white;
+}
